@@ -38,6 +38,8 @@ img {
 }
 header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -132,6 +134,7 @@ header {
   max-width: 1440px;
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .headline-title {
   color: #ffffff;
@@ -187,8 +190,6 @@ header {
   margin-bottom: 8px;
 }
 .features-icons-svg {
-  width: 64px;
-  height: 64px;
   display: block;
   margin: 24px 100px;
 }
@@ -270,6 +271,9 @@ header {
 .team-social-media:hover,
 .team-social-media:focus {
   background-color: #404bbf;
+}
+.s-m-team-container {
+  padding: 32px 0;
 }
 .portfolio-info {
   padding: 32px 16px;
