@@ -188,6 +188,9 @@ header {
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .features-icons-svg {
   display: block;
@@ -349,10 +352,11 @@ header {
   width: calc((100% - 3 * 16px) / 4);
 }
 .footer-s-m-icons {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo-text {
   margin-right: 120px;
@@ -360,4 +364,7 @@ header {
 .footer-social-media:hover,
 .footer-social-media:focus {
   background-color: #31d0aa;
+}
+.footer-s-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
