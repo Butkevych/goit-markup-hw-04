@@ -323,9 +323,6 @@ header {
 }
 .portfolio-card:hover .overlay-text {
   transform: translateY(0%);
-  background-color: #4d5ae5;
-  padding: 40px 32px 0 32px;
-  color: #f4f4fd;
 }
 .portfolio-card:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
