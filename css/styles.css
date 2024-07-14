@@ -234,7 +234,6 @@ header {
 .team-section {
   background-color: #f4f4fd;
 }
-
 .team-list {
   display: flex;
   gap: 24px;
@@ -259,7 +258,6 @@ header {
   display: flex;
   gap: 24px;
   justify-content: center;
-  align-items: center;
   padding: 8px 16px 32px 16px;
 }
 .team-s-m-icons {
